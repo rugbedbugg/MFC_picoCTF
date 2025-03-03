@@ -1,0 +1,2 @@
+.docx --> picoCTF{f1u3n7_
+.pdf  --> 1n_pn9_&_pdf_90974127}
