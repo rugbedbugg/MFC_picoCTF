@@ -35,16 +35,16 @@ sys.stdout.write(out)
 It takes multiple lines as input and peforms a cipher on each of the characters.
 ### Notes
 - The input logic is probably faulty as it never stops taking input
-
-![OG_convert.py_output.png](C3/OG_convert.py_output.png)
-This can be fixed quite easily
+  
+  ![OG_convert.py_output.png](https://github.com/rugbedbugg/MFC_picoCTF/blob/main/C3/OG_convert.py_output.png)
+  This can be fixed quite easily
 - The lookups are setup incorrectly.
 - Variable ```cur```  is an integer corresponding to every character possible in ```ciphertext```
 - The output ```out``` of the file is a string of characters with each character of it correseponding to its equialent index in the ```ciphertext```
 
 ## Attempting to run the program through the contents of ```ciphertext```
 - I tried running the code as is and as exepected the code was broken 
-	![disfigured_converter_output.png](C3/disfigured_converter_output.png)
+	![disfigured_converter_output.png](https://github.com/rugbedbugg/MFC_picoCTF/blob/main/C3/disfigured_converter_output.png)
 - I looked up on the internet to see if i could find something on this. I found a Medium Page where someone had solved an earlier version of the problem with the correct converter provided.
 https://medium.com/@amosakogbe/picoctf-2024-write-up-a87028436556
 - It turns out that the encoded string is actually a python code
