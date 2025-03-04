@@ -1,21 +1,21 @@
 In this CTF we are provided with a domain name ```saturn.picoctf.net:54260```
 Upon visiting the website we are greeted with a simple login page
-![Login_page.png](:/9a9ff66094744bd8b401ab8b72592a9a)
+![Login_page.png](/Login_page.png)
 
 Trying to login in with random credentials gives us a failed login screen
-![login_falied.png](:/1eb89c36665a4d768d0bef11126b96d4)
+![login_falied.png](/Login_failed.png)
 
 Analysing the URL doesn't help much
-![inspect_URL.png](:/646d3a445a7f402e82c421a121a37311)
+![inspect_URL.png](/inspect_URL.png)
 
 We get a css file ```style.css``` but that isn't helpful either
-![css_output.png](:/2c441778c60a4970b5fdc0585a079b1b)
+![css_output.png](/css_output.png)
 
 Using BurpSuite to analyze the URL we see an interesting file ```secure.js```
-![Information_disclosure_secure_js.png](:/4ad028bbd03b4897b35674938d389798)
+![Information_disclosure_secure_js.png](/Information_disclosure_secure_js.png)
 
 Navigating to it we directly get the credentials for the login page
-![secure_js_output.png](:/189515a5f523476cb8d48f69acba15b3)
+![secure_js_output.png](/secure_js_output.png)
 
 * * *
 The flag is
