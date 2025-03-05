@@ -17,7 +17,7 @@ to activate the venv
 - **`Secret of the Polyglot`** – Analysis of files and the secrets within them.  
 
 ### 🔍 General Skills 
-- **`Time Machine`** - Use of GitHub to analyse previous actions on a file.
+- **`Time Machine`** - Use of Git to analyse previous actions on a file.
 
 ### 🛡️ Reverse Engineering  
 - **`Vault Door Training`** – Knowing to look at the source code for potential weaknesses and exploits.  
