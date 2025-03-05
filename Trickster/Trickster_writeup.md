@@ -28,7 +28,7 @@ Now, we know that the website is going to check for
 - or the word ```PNG``` itself
 
 We will append this to the top of the file and then upload it into the website. 
-- Converting the ```.php``` file into a ```.png``` file wont work as we would be able to execute the shell remotely later.
+- Converting the ```.php``` file into a ```.png``` file wont work as we would not be able to execute the shell remotely later.
 - Therefore we have to rename the file to ```file.png.php``` with ```file.png``` being the filename. Also now we to drag and drop the folder in the upload box as it is not going to appear on the file explorer due to it still being a ```php``` file
 
 We find that appending ```50 4E 47``` still leads to the file being detected as a non-png file, hence we will append ```PNG```
